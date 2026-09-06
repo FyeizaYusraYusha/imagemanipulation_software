@@ -1,0 +1,13 @@
+# Executables and compiled objects
+*.exe
+*.o
+*.dll
+
+# OS generated files
+thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE / Editor folders
+.vscode/
+.idea/
