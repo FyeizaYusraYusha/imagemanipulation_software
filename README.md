@@ -77,6 +77,7 @@ Pixel Data Layout: Stores colors in BGR byte order rather than RGB. Each scanlin
 ---
 
 ### Application Interface
+
 | Main GUI Window |
 | :---: |
 | ![Main UI](./screenshot/ui.png) |
