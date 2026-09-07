@@ -77,10 +77,7 @@ Pixel Data Layout: Stores colors in BGR byte order rather than RGB. Each scanlin
 ---
 
 Screenshots:
-screenshot/Screenshot 2026-09-06 155056.png
-
-
-<img width="389" height="293" alt="Screenshot 2026-09-06 155056" src="https://github.com/user-attachments/assets/3ef42660-1bfb-45ec-b18d-3b1b9de506bc" />
+c:\Users\user\OneDrive\Desktop\screenshot\Screenshot 2026-09-06 155056.png
 
 
 ### 💡 Understanding Rotation vs. Flips
