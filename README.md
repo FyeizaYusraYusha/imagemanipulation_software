@@ -39,6 +39,36 @@ Make sure you have a C compiler (GCC/MinGW or MSVC) and the **IUP GUI toolkit** 
 
 ---
 
+
+### 1. Compile the Software
+Using GCC (adjust include/library paths if necessary):
+
+```cmd
+gcc main.c gui.c image.c bmp.c operations.c -o imagemanipulation.exe -Iinclude -Liup -liup -lIupControls
+```
+
+### 2. Run the Application
+
+```cmd
+imagemanipulation.exe
+```
+
+---
+
+## 🕹️ Operations & Usage Guide
+
+1. **Load an Image:** Click on **File > Open** (or use the menu bar) to load a standard 24-bit `.bmp` file (e.g., `lena.bmp`).
+2. **Apply Adjustments:**
+   * **Grayscale / Invert:** Converts pixel color spaces or flips pixel values.
+   * **Brightness:** Adjusts overall image luminance up or down.
+   * **Filters:** Select **Blur** or **Sharpen** from the **ADJUSTMENTS** menu to apply spatial convolution matrix operations.
+3. **Transformations:**
+   * **Flip / Rotate:** Use the **TRANSFORM** menu to mirror horizontally/vertically or perform 90° matrix rotations.
+   * **Crop:** Drag a selection rectangle across the canvas and click **Crop** to isolate the pixel region.
+   * **Undo:** Revert your most recent modification.
+  
+---
+
 ### Application Interface
 
 | Main GUI Window |
