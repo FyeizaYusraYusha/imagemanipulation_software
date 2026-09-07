@@ -50,7 +50,7 @@ gcc main.c gui.c image.c bmp.c operations.c -o imagemanipulation.exe -Iinclude -
 ### 2. Run the Application
 
 ```cmd
-imagemanipulation.exe
+./imagemanipulation.exe
 ```
 
 ---
