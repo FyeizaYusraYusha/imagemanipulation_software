@@ -91,7 +91,7 @@ gcc main.c gui.c image.c bmp.c operations.c -o imagemanipulation.exe -Iinclude -
 | :---: | :---: |
 | ![Grayscale](./screenshot/grayscale.png) | ![Invert](./screenshot/invert.png) |
 
-| Brightness (Increase) | Brightness (Decrease) |
+| Brightness (UI) | Brightness (Increased) |
 | :---: | :---: |
 | ![Brightness 1](./screenshot/brightness1.png) | ![Brightness 2](./screenshot/brightness2.png) |
 
