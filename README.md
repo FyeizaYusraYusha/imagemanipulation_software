@@ -76,6 +76,12 @@ Pixel Data Layout: Stores colors in BGR byte order rather than RGB. Each scanlin
 
 ---
 
+# Image Manipulation Software
+
+A C-based GUI image processing application built using IUP and custom BMP handling routines.
+
+---
+
 ### Application Interface
 
 | Main GUI Window |
